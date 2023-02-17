@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net7ApiTemplate", "Net7ApiTemplate\Net7ApiTemplate.csproj", "{400BDA6C-CDB2-4A5C-9A98-27791150E5B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net7ApiTemplate", "Net7ApiTemplate\Net7ApiTemplate.csproj", "{400BDA6C-CDB2-4A5C-9A98-27791150E5B4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{EE5BBF46-4F9F-4B24-A45C-3ABB71AD6125}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{C40B9A13-CDC4-415A-A065-AAF1457A7870}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{9E1C9B0E-98C9-4ABA-B06E-B6D9A41389FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{C94D582A-C7EB-4228-8713-5E2CF49EFAC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9E1C9B0E-98C9-4ABA-B06E-B6D9A41389FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1C9B0E-98C9-4ABA-B06E-B6D9A41389FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1C9B0E-98C9-4ABA-B06E-B6D9A41389FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94D582A-C7EB-4228-8713-5E2CF49EFAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94D582A-C7EB-4228-8713-5E2CF49EFAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94D582A-C7EB-4228-8713-5E2CF49EFAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94D582A-C7EB-4228-8713-5E2CF49EFAC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

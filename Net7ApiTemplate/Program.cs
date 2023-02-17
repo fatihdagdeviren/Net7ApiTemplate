@@ -19,6 +19,9 @@ using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Net7ApiTemplate;
 using Core.Extensions;
+using Microsoft.AspNetCore.Hosting;
+using MediatR;
+using Application.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -101,6 +104,9 @@ builder.Services.AddAuthentication(option =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenOptions.SecurityKey))
     };
 });
+
+//MediatR
+//builder.Services.AppendMediatR();
 
 var app = builder.Build();
 
